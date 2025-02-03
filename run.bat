@@ -1,2 +1,2 @@
-streamlit run pnel.py
+streamlit run main.py
 pause
