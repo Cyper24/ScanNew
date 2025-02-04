@@ -109,7 +109,7 @@ try:
         df = pd.DataFrame(list)
         on = st.toggle("Filter Dlg")
         if on:
-            df = df[df["Discan_Oleh"].str.contains('Pb Maret 03|Pb Maret 05|Pb Maret 06|Pb Maret 15|Kr_rohmad|dlg')==False]
+            df = df[df["Discan_Oleh"].str.contains('Pb Maret 03|Pb Maret 05|Pb Maret 06|Pb Maret 15|Pb Maret 16|Kr_rohmad|dlg')==False]
         st.dataframe(df,hide_index=True)
         st.caption(f"{len(df.index)}" + " Data")
 except:
